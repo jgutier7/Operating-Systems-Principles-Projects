@@ -1,6 +1,8 @@
 # Operating-Systems-Principles-Projects
 Project for my Operating Systems Principles Course
 
+
+
 Project 1: Process Queue Shell
 
 The first project is to build a basic shell that serves as a multi-core process queue called pqsh. This program allows the user to enter in a series of commands and then schedules the specified jobs to run on multiple CPU cores as separate processes.
