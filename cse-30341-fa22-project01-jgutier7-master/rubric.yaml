@@ -1,0 +1,66 @@
+Source Code:
+  A. General:
+    1. Builds and cleans without warnings or errors:
+      Score: 0.5
+    2. Uses system calls appropriately:
+      Score: 1.0
+    3. Manages resources such as memory and files appropriately:
+      Score: 1.0
+    4. Is consistent, readable, and organized:
+      Comments:
+      - 0.25 Commenting every line is unnecessary and excessive
+      - No need to comment obvious thing
+      Score: 0.75
+    5. Has regular commits and submitted on-time:
+      Score: 1.0
+  B. Structures / Functions:
+    1. Implements Process structure properly:
+      Comments:
+      - 0.25 Must call exit after execvp in case it fails
+      Score: 1.75
+    2. Implements Queue structure properly:
+      Score: 4.0
+    3. Implements Timestamp function properly:
+      Score: 0.5
+  C. Scheduler:
+    1. Implements Add command properly:
+      Comments:
+      - 0.25 Check if process_create fails
+      Score: 0.75
+    2. Implements Status command properly:
+      Score: 1.0
+    3. Implements Wait function properly:
+      Comments:
+      - 0.25 Check if queue_remove returns NULL
+      - Don't call scheduler_wait or scheduler_next pqsh
+      Score: 1.75
+    4. Implements Timer behavior properly:
+      Comments:
+      - 0.25 Check if signal_register fails
+      Score: 0.75
+    5. Implements FIFO scheduler behavior properly:
+      Comments:
+      - 1.0 Tests segfaults
+      - Check if process_* functions fail
+      Score: 1.0
+    6. Implements RDRN scheduler behavior properly:
+      Comments:
+      - 3.0 Tests segfaults
+      - Check if process_* functions fail
+      Score: 1.0
+
+Reflection:
+  A. Group Video Demonstration:
+    1. Exhibits reasonable audio and video quality:
+      Score: 0.5
+    2. Demonstrates passing automated tests:
+      Score: 0.25
+    3. Demonstrates working with manual input:
+      Score: 0.5
+    4. Discusses errata, quirks, or unresolved issues:
+      Score: 0.75
+    5. Discusses what the group learned from the project:
+      Score: 0.75
+
+Total: 16.75 + 2.75 = 19.5
+
